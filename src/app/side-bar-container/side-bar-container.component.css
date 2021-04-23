@@ -1,0 +1,63 @@
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    padding-left: 20px;
+}
+
+h3 span {
+    font-family: monospace;
+    font-size: 15px;
+    border: 7px outset;
+    display: table;
+    margin-left: 80px;
+    width: 600px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 800px;
+    width: 775px;
+    overflow: hidden;
+    overflow-y: scroll;
+    transform: scaleX(-1);
+    border: 5px groove black;
+}
+
+.text-direction {
+    transform: scaleX(-1);
+    padding-left: 20px;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    font-family: monospace;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.list-footer {
+    transform: scaleX(-1);
+    padding-left: 20px;
+    margin: 5px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    color: black;
+    font-weight: bolder;
+}

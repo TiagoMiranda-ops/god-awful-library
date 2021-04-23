@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <h3>
+        <span>Wondrous books which I clearly don't live up to</span>
+    </h3>
+    <ul class="container">
+        <li class="text-direction" *ngFor="let e of links">
+            <a [routerLink]="e.url">{{ e.text }}</a>
+        </li>
+        <li class="list-footer">
+            ©1995 Wretched Productions, Inc. All rights reserved
+        </li>
+    </ul>
+</div>

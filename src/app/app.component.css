@@ -1,0 +1,18 @@
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+h1 span {
+    background-color: black;
+    color: white;
+    display: table;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: monospace;
+}
